@@ -1,5 +1,7 @@
 # Portfolio
 ## 2020
 
-###Constance Pétillot
-###Developpeuse Front-end
+<ul>
+<li>Constance Pétillot
+<li>Developpeuse Front-end
+</ul>
