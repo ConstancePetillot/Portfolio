@@ -1,8 +1,10 @@
 # Portfolio
 ## 2020
 
-<ul>Constance Pétillot
+<h2>Constance Pétillot
 <br>
-  <li>Developpeuse Front-end</li>
-  <li> En recherche d'une alternance pour Septembre 2020</li>
-</ul>
+<br>
+  <p>:pencil:
+  <p>Developpeuse Front-end</p>
+  <p> En recherche d'une alternance pour Septembre 2020</p>
+
