@@ -1,10 +1,10 @@
 # Portfolio :bulb:
 
 
-## Présentation :
+## Présentation : :speech_balloon:
 Je m'appelle Constance Pétillot et je suis un developpeuse front-end. Je suis à la recherche d'une alternance pour la rentrée 2020
 
-## Usage :
+## Usage : :white_check_mark:
 
  1. clone repo
  2. cd into the repo
