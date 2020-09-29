@@ -1,0 +1,51 @@
+.presentation {
+  background-color: $primary-dark-grey;
+  height: 100vh;
+  padding: 60% 20% 0 40%;
+  position: relative;
+  overflow: hidden;
+}
+
+.presentation__text {
+  color: $secondary-white;
+  font-weight: bold;
+  width: 50vw;
+}
+
+.presentation__geometry--complete-lign-top img {
+  position: absolute;
+  top: 20%;
+  left: 36%;
+}
+
+.presentation__geometry--complete-lign-mid img {
+  position: absolute;
+  transform: rotate(90deg);
+  top: 35%;
+  left: 4%;
+}
+
+.presentation__geometry--complete-lign-bot img {
+  position: absolute;
+  bottom: 35%;
+  right: -5%;
+}
+
+.presentation__geometry--circles {
+  position: absolute;
+  top: 21%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+
+.presentation__triangles-lign img {
+  position: absolute;
+  top: 5%;
+  right: 15%;
+}
+
+.presentation__triangles img {
+  position: absolute;
+  bottom: 5%;
+  left: 25%;
+}

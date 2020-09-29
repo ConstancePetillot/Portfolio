@@ -1,6 +1,11 @@
 .hero {
+  height: 100vh;
   background-color: $primary-red;
+  padding-top: 50px;
+  position: relative;
+}
 
+.hero__canva {
   @media (min-width: 768px) {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -26,13 +31,37 @@
   }
 }
 
+.hero__name {
+  background-color: $primary-dark-grey;
+  color: $secondary-white;
+  width: 81vw;
+  font-size: 30px;
+  padding: 10px 20px;
+  letter-spacing: 3px;
+}
+
+.hero__job {
+  margin: 15px 20px 50px 20px;
+  letter-spacing: 1px;
+}
+
 .hero__geometry {
   display: flex;
 }
 
-.hero__geometry--hand svg {
-  fill: $primary-dark-grey;
-  transform: rotate(90deg);
-  width: 30%;
+.hero__geometry--hand img {
   height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  @media (min-width: 768px) {
+  }
+}
+
+.hero__geometry--lign {
+  position: absolute;
+  bottom: -1%;
+  right: 5%;
 }
