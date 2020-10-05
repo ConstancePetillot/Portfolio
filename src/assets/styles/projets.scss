@@ -1,0 +1,14 @@
+.project {
+  position: absolute;
+  height: 100vh;
+  background-color: $primary-dark-grey;
+}
+
+.project__texts {
+  color: $primary-red;
+}
+
+.project__horizontal-line {
+  position: absolute;
+  top: 20%;
+}

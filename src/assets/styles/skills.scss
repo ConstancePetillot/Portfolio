@@ -1,10 +1,11 @@
-.skills {
+.hard-skills {
   background-color: $primary-red;
   position: relative;
   height: 100vh;
+  overflow: hidden;
 }
 
-.skills__textes {
+.hard-skills__textes {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -14,32 +15,117 @@
   width: 90vw;
 }
 
-.skills__text--do {
+.hard-skills__text--do {
   color: $primary-dark-grey;
   font-weight: bold;
 }
 
-.skills__text--inte,
-.skills__text--proto {
+.hard-skills__text--inte,
+.hard-skills__text--proto {
   color: $secondary-white;
   font-weight: bold;
   font-size: 20px;
 }
 
-.skills__text--design,
-.skills__text--shopify {
+.hard-skills__text--design,
+.hard-skills__text--shopify {
   color: $primary-dark-grey;
   font-weight: bold;
   font-size: 20px;
 }
 
-.skills__lign--horizontal {
+.hard-skills__lign--horizontal {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.skills__cercles {
+.hard-skills__cercles {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+/*****************************************
+SOFT SKILLS
+******************************************/
+
+.soft-skills {
+  background-color: $primary-red;
+  position: relative;
+  height: 100vh;
+  padding-top: 10%;
+}
+
+.soft-skills__text--do {
+  padding-left: 65px;
+  width: 90vw;
+  color: $secondary-white;
+}
+
+.soft-skills__textes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 25vh;
+  padding-left: 65px;
+  width: 83vw;
+  line-height: 150%;
+}
+
+.soft-skills__text--adaptation {
+  color: $primary-dark-grey;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.soft-skills__text--team {
+  color: $primary-dark-grey;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  letter-spacing: 3px;
+}
+
+.soft-skills__text--perseverance {
+  color: $secondary-white;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.soft-skills__text--creativity {
+  color: $primary-dark-grey;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+
+  strong {
+    color: $secondary-white;
+  }
+}
+
+.soft-skills__lign--vertical {
+  position: absolute;
+  top: -8px;
+  left: 56px;
+  z-index: 1;
+
+  img {
+    height: 102vh;
+  }
+}
+
+.soft-skills__thinker {
+  z-index: 5;
+  position: absolute;
+  left: 20px;
+  bottom: 150px;
+}
+
+.soft-skills__triangles {
   position: absolute;
   bottom: 20px;
   right: 20px;
