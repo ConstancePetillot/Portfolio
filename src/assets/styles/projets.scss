@@ -1,5 +1,5 @@
 .project {
-  position: absolute;
+  position: relative;
   height: 100vh;
   background-color: $primary-dark-grey;
 }
@@ -8,7 +8,80 @@
   color: $primary-red;
 }
 
+.project__text--type {
+  position: absolute;
+  top: 271px;
+  left: -125px;
+  transform: rotate(-90deg);
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+}
+
+.project__text--title {
+  transform: rotate(-90deg);
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  top: 68px;
+  left: 27px;
+}
+
+.project__text--instructions-top {
+  font-weight: bold;
+  font-size: 16px;
+  position: absolute;
+  top: 131px;
+  left: 119px;
+  text-transform: uppercase;
+  width: 136px;
+  text-align: right;
+}
+
+.project__text--instructions-bot {
+  font-weight: bold;
+  font-size: 16px;
+  position: absolute;
+  top: 180px;
+  left: 119px;
+  text-transform: uppercase;
+  width: 136px;
+  color: rgba(209, 30, 30, 0.45);
+  text-align: right;
+}
+
+.project__text--techno {
+  transform: rotate(-90deg);
+  font-weight: bold;
+  font-size: 12px;
+  position: absolute;
+  width: 122px;
+  height: 35px;
+  left: 222px;
+  top: 42px;
+}
+
 .project__horizontal-line {
   position: absolute;
   top: 20%;
+}
+
+.project__verticals {
+  position: absolute;
+  top: 0;
+  left: 56px;
+}
+
+.project__phone {
+  position: absolute;
+  bottom: 104px;
+  left: 62px;
+}
+
+.project__desktop {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
 }
